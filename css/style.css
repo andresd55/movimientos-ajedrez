@@ -1,0 +1,223 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+}
+html{
+	height: 300px;
+}
+html,body { 
+  overflow:hidden; 
+}
+body
+{
+	background : url("../img/body.jpg") no-repeat center center fixed;
+	background-size: cover;
+}
+header 
+{
+	background-color: white;
+	border-radius: 11px;
+	box-shadow: inset 0px 0px 20px 2px #6D0100;
+	font: normal 40px "", Monaco, monospace;
+	margin: 0px auto;
+	margin-top: 30px;
+	margin-bottom: 40px;
+	padding:10px;
+	text-align: center;
+	text-overflow: ellipsis;
+	text-shadow: 2px 2px 4px #E39031;
+	width: 570px;
+ }
+ fieldset {
+    border: 1px solid #064262;
+    color: white;
+    font-size: 90%;
+    border: 3px double #71201C;
+    border-radius: 0px 8px 8px 8px;
+    background-color: rgba(113,32,28,0.2);
+    width: 300px;
+}
+
+legend {
+    padding: 0.2em 0.5em;
+    border-left: 3px double #71201C;
+	border-right: 3px double #71201C;
+	border-top: 3px double #71201C;
+	border-radius: 8px 8px 0px 0px;
+    color: #FFF1B5;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+    font: normal 20px "", Monaco, monospace;
+    font-weight:bold;
+    text-align: left;
+	text-overflow: ellipsis;
+    border: 1px solid #064262 -webkit-border-radius: 8px;
+    background-color: rgba(113,32,28,0.2);
+	margin-left: -12px;
+	margin-top: -34px;
+}
+select{
+	margin-left: 20%;
+	margin-top: 20px;
+	width: 60%;
+	height: 30px;
+	text-align: center;
+}
+.etiqueta{
+	margin-left: 20%;
+	margin-right: 20%;
+	width: 80%;
+}
+.rigth{
+	margin-left: 35%;
+}
+#c{
+	position: relative;
+	margin-left: -33px;
+}
+#f{
+	position: relative;
+	margin-top: 20px;
+}
+.num{
+	padding-top: 15px;
+}
+.letras{
+	padding-left: 15px;
+	display: inline-block;
+}
+#boton{
+	overflow: hidden;
+	position: relative;
+	top: 0;
+
+	cursor: pointer;
+
+	color:#FFF1B5;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+	width: 60%;
+	height: 30px;
+
+	border-radius: 3px;
+	box-shadow: 0px 2px rgba(255,255,255,1);	
+	text-align: center;
+	margin-left: 20%;
+
+	font: normal 20px "", Monaco, monospace;
+    font-weight:bold;
+
+	-moz-user-select: none;
+    transition: all 0.2s ease;
+}
+#boton:active{
+	box-shadow: 0px 0px #6b54d3;
+	top: 4px;
+}
+#contorno{
+	background: url("../img/contorno.png");
+	margin-top: -275px;
+	margin-left: 660px;
+	width: 500px;
+	height: 430px;
+}
+div{
+	 margin-top: 10px;
+}
+input{
+	width: 50px;
+}
+#datos{
+	margin-left: 250px;
+	margin-top: 100px;
+	width: 400PX;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+#tablero{
+	position: relative;
+	margin-top: -780px;
+	margin-left: 680px;
+	width: 460px;
+	height: 390px;
+	background : url("../img/fondo.jpg");
+	background-repeat: no-repeat;
+}
+#numeros{
+	position: relative;
+	width: 20px;
+	height: 390px;
+	margin-top: -420px;
+	margin-left: 663px;
+	font: normal 20px "", Monaco, monospace;
+	font-weight:bold;
+	color:#FFF1B5;
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+#letras{
+	position: relative;
+	width: 20px;
+	height: 390px;
+	margin-top: -320px;
+	margin-left: 698px;
+	letter-spacing: 35pt;
+	font: normal 20px "", Monaco, monospace;
+	font-weight:bold;
+	display: inline-block;
+	color:#FFF1B5;
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+#fila{
+	position: relative;
+	margin-top: -4px;
+}
+#casilla{
+	position: relative;
+	width: 57px;
+	height: 49px;
+	background-color: rgba(0,0,0,0.3);
+	display: inline-block; 
+	margin-left: -176px;
+    margin-top: -0px;'
+}
+#ficha{
+	position: absolute;
+	width: 57px;
+	height: 49px;
+}
+#movimiento{
+	position: absolute;
+	width: 57px;
+	height: 49px;
+}
+#mov{
+	background-color: rgba(0,255,0,0.4);
+	border: 1px solid green;
+	border-radius: 50%;
+	width: 25px;
+	height: 25px;
+	transition: all 0.2s ease;
+}
+#mov:hover{
+	background-color: rgba(0,255,0,0.8);
+	cursor: pointer;
+}
+#movm{
+	background-color: rgba(255,0,0,0.4);
+	border: 1px solid red;
+	border-radius: 50%;
+	width: 25px;
+	height: 25px;
+	transition: all 0.2s ease;
+}
+#movm:hover{
+	background-color: rgba(255,0,0,0.8);
+	cursor: pointer;
+}
+#img{
+	width: 460px;
+	height: 390px;
+	margin-top: -270px;
+	margin-left: 300px;
+	background : url("../img/img.png");
+	background-repeat: no-repeat;
+}
