@@ -1,7 +1,9 @@
 # movimientos-ajedrez
-posibles movimientos de las fichas del ajedrez con php
+Posibles movimientos de las fichas del ajedrez con php
 
+ <video width="320" height="240" autoplay>
+  <source src="movimientos_ajedrez.mp4.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video> 
 
-
-<img src="https://github.com/andresd55/movimientos-ajedrez/movimientos_ajedrez.mp4" alt="index symfony" title="index" width="70%" align="middle" />
 
